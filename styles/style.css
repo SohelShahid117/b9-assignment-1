@@ -12,14 +12,18 @@
     font-family: 'Satisfy', cursive; */
 }
 .banner{
-    margin: 100px auto;
+    margin: 50px auto;
     width: 80%;
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("../images/Banner\ Image.png");
     background-position: center;
     background-size: cover;
     border-radius: 10px;
     text-align: center;
-    padding: 100px 50px;
+    padding: 150px 50px;
+}
+.banner .banner-title{
+    max-width: 500px;
+    margin: 0 auto;
 }
 .banner .banner-title p{
 color: #FFF;
@@ -101,6 +105,7 @@ border: none;
 cursor: pointer;
 }
 .midnight .midnight-img img{
+    margin-left: 200px;
 width: 250px;
 flex-direction: column;
 height: 350px;
@@ -146,6 +151,9 @@ padding: 12px 25px;
     padding: 50px 0;
     margin-right: 10px;
 }
+.coming .coming-text{
+    max-width: 350px;
+}
 .coming .coming-text h5{
     color: #F00;
 font-size: 20px;
@@ -178,6 +186,10 @@ font-weight: 400;
     height: 200px;
     /* border: 2px solid #F00; */
     border-radius: 200px;
+    padding: 30px;
+}
+.coming .coming-2024{
+    margin-left: 50px;
 }
 .coming .coming-2024 .coming-2024-text h3{
     color: #F00;
@@ -192,4 +204,48 @@ font-weight: 400;
 .coming .coming-2024 img{
     width: 110px;
 height: 110px;
+}
+.holiday{
+    width: 80%;
+    margin: 80px auto;
+    text-align: center;
+}
+.holiday .holiday-text{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.holiday .holiday-text h5{
+    color: #070211;
+font-size: 20px;
+font-weight: 400;
+margin-bottom: 20px;
+}
+.holiday .holiday-text h2{
+    color: #070211;
+font-size: 60px;
+font-weight: 700;
+margin-bottom: 20px;
+}
+.holiday .holiday-text p{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+}
+.holiday .holiday-img{
+    display: flex;
+    width: 100%;
+}
+.holiday .holiday-img .img1 img{
+    width: 350px
+}
+.holiday .holiday-img .img2 img{
+    width: 200px
+}
+.holiday .holiday-img .img3 img{
+    width: 350px
+}
+.holiday .holiday-red{
+    max-width: 1050px;
+    height: 150px;
 }
